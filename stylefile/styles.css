@@ -1,0 +1,358 @@
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* header-section */
+.header-section {
+    background-image: url('../images/Hero-bg.png');
+    width: 1340px;
+    height: 698px;
+}
+
+/* header-nav-section */
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 152px;
+}
+
+.header-nav ul li {
+    list-style: none;
+    margin-top: 50px;
+}
+
+.header-nav ul .logo {
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.header-nav button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
+
+/* header-div-section */
+.header-div {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.header-div h2 {
+    font-size: 65px;
+}
+
+.header-div button {
+    text-align: center;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
+
+/* main-section-second.section */
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 400px;
+    margin: 86px 160px 100px 120px;
+}
+
+.action {
+    max-width: 350px;
+}
+
+.action h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.action p {
+    color: #252432;
+    margin-top: 0px;
+}
+
+.action button {
+    padding: 10px 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
+
+.second-section img.webflow {
+    width: 400px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+/* main-section-third-section */
+.third-section {
+    width: 1140px;
+    height: 350px;
+    margin: 86px 160px 100px 120px;
+    background-color: #f4eded;
+    border-radius: 24px;
+}
+
+.user-section {
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    padding: 20px 140px;
+}
+
+.user-section h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.users {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.user h1 {
+    font-style: initial;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.user h5 {
+    color: #252432 font-weight: 500;
+}
+
+/* section-.four-section */
+.four-section {
+    width: 1140px;
+    height: 400px;
+    margin: 86px 160px 100px 120px;
+}
+
+.what-title h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.designers {
+    width: 1140px;
+    height: 240px;
+    display: flex;
+    padding: 10px;
+}
+
+.designer {
+    width: 350px;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid rgb(234, 214, 214);
+    padding: 10px;
+}
+
+.profile-picture {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name-date .name {
+    font-size: 15px;
+}
+
+.name-date .date {
+    font-size: 12px;
+    margin-top: 0px;
+    color: #B3B3B3;
+}
+
+/* main-section-five-section */
+.five-section {
+    width: 1140px;
+    height: 400px;
+    margin: 86px 160px 100px 120px;
+    text-align: center;
+    justify-content: center;
+}
+
+.five-section-contain h3 {
+    font-size: 50px;
+}
+
+.five-section-contain p {
+    margin-top: 0px;
+    color: #B3B3B3;
+}
+
+.five-section-contain button {
+    padding: 10px 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
+
+.five-section-contain img {
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-bottom: 200px;
+}
+
+/* footer-section */
+.footer-section {
+    width: 1140px;
+    height: 600px;
+    margin: 86px 160px 100px 120px;
+}
+
+.footer-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lets {
+    width: 50%;
+}
+
+.lets h1 {
+    align-items: center;
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.input {
+    width: 480px;
+    height: 490px;
+    justify-content: center;
+}
+
+.input label {
+    font-weight: bold;
+}
+
+.input input[type="text"],
+input[type="email"] {
+    height: 45px;
+    border-radius: 5px;
+    display: block;
+    width: 480px;
+    margin: 10px 0px;
+    border: 1px solid rgb(194, 188, 188);
+}
+
+.input textarea {
+    display: block;
+    height: 150px;
+    width: 445px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: 1px solid rgb(194, 188, 188);
+    border-radius: 10px;
+}
+
+.input button {
+    height: 65px;
+    width: 490px;
+    padding: 0 auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
+
+/* footer-last-section part */
+.footer-last-section {
+    width: 1140px;
+    height: 100px;
+    margin: 86px 160px 100px 120px;
+}
+
+.last-logo {
+    width: 530px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 160px;
+}
+
+.last-logo .logo-icon {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 30px;
+}
+
+.last-logo p {
+    margin-top: 0%;
+    font-size: 15px;
+    color: #8987A1;
+}
+
+.last-logo nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.last-logo nav ul li {
+    list-style: none;
+    font-size: 15px;
+    color: #8987A1;
+}
+
+.last-logo nav ul li a {
+    text-decoration: none;
+    color: #8987A1;
+}
+
+/* for animated button */
+.growing-button:hover {
+    padding: 16px 32px;
+    font-size: 18px;
+    background-color: #34A853;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: rotate(0deg);
+}
+
+.growing-button:active {
+    transform: scale(0.98);
+}
